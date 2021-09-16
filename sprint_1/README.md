@@ -2,6 +2,8 @@
 
 ## Enunciado 1
 
+**
+
 El equipo de iMaster requiere construir una página web para un nuevo proyecto y usted es la persona encargada de realizar el trabajo, ellos ya cuentan con una base sobre la cual trabajar, pero requieren hacer algunos ajustes que el proyecto les solicita.
 
 Las observaciones que recibieron son las siguientes:
