@@ -2,18 +2,14 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Fernando */
-
-/* Juan  */
-
 
 .services-section{
             display: flex;
             margin-bottom: 100px;
         }
-        
-/* Duverney */ 
 
-/* Alan  */
-
-/* Jorge */
+.services-info__imagen {
+            border-radius: 20%;
+            margin-right: auto;
+            margin-left: auto;
+        }
