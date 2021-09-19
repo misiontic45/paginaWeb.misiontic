@@ -1,7 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* Fernando */
 
 /* Juan  */
 
+
+.services-section{
+            display: flex;
+            margin-bottom: 100px;
+        }
+        
 /* Duverney */ 
 
 /* Alan  */
