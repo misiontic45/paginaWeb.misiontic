@@ -85,8 +85,8 @@ body {
 }
 
 .services-section,
-.seccion-noticias,
-.seccion-equipo {
+.news-section,
+.team-section {
     display: flex;
     margin-bottom: 0px;
 }
