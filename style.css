@@ -12,4 +12,31 @@
             border-radius: 20%;
             margin-right: auto;
             margin-left: auto;
+            width:200px;
+            height: 200px;
         }
+
+.services-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-tecnologia {
+    width: 100%;
+}
+.banner-tecnologia>img {
+    width: 100%;
+    height: 400px;
+    max-width: 1400px;
+    object-fit: cover;
+}
+
+.banner-deportes {
+    width: 100%;
+}
+.banner-deportes>img {
+    width: 100%;
+    height: 400px;
+    max-width: 1400px;
+    object-fit: cover;
+}
