@@ -41,7 +41,7 @@ body {
     flex-direction: column;
 }
 .container {
-    flex: 1;    /* same as flex-grow: 1; */
+    flex: 1;   
 }
 
 .ft-main {
@@ -51,14 +51,14 @@ body {
 }
 .ft-main-item {
     padding: 1.25rem;
-    min-width: 12.5rem /*200px*/;
+    min-width: 12.5rem ;
 }
-@media only screen and (min-width: 29.8125rem /*477px*/) {
+@media only screen and (min-width: 29.8125rem ) {
     .ft-main {
         justify-content: space-around;
     }
 }
-@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+@media only screen and (min-width: 77.5rem ) {
     .ft-main {
         justify-content: space-evenly;
     }
@@ -79,4 +79,35 @@ input[type="submit"] {
     border: 0;
     padding: 0.625rem 0.9375rem;
     margin-top: 0.3125rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 0.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px  #7a0808 solid; 
+    padding-top: 0.25rem;
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #333;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;      
 }
