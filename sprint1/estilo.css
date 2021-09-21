@@ -59,9 +59,11 @@ body {
 .site-nav>a {
     display: flex;
     height: 100%;
+    width: 25%;
     color: inherit;
     text-decoration: none;
     align-items: center;
+    justify-content: center;
 }
 
 .site-nav>a:hover {
