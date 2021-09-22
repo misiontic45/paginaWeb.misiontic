@@ -14,16 +14,19 @@ body {
     background-color: #f7f7f7;
 }
 
-.header-section {
-    margin-bottom: 100px;
-}
+
 
 .header-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
-
+    position:fixed;
+    top: auto;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    border-bottom: #222222 solid 0.5px;
 }
 .logo-container {
     display: flex;
@@ -70,6 +73,13 @@ body {
     /* font-weight: bold; */
     border-bottom: solid darkslategrey 5px;
 }
+.site-nav>a:focus {
+    /* font-weight: bold; */
+    border-bottom: solid darkslategrey 5px;
+    
+}
+
+
 
 
 
@@ -78,15 +88,21 @@ body {
 }
 
 .banner>img {
+    margin-top: 50px;
     width: 100%;
     height: 400px;
     max-width: 1400px;
     object-fit: cover;
 }
+.sectiontitle{
+    border-top: solid 80px transparent;
+    font-size: 30px;
+}
 
 .services-section,
 .news-section,
 .team-section {
+    
     display: flex;
     margin-bottom: 0px;
 }
